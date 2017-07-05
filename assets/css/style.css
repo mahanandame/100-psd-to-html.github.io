@@ -1,0 +1,91 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+a:hover { text-decoration: none }
+.video-area {
+    position: relative;
+    padding: 50px 0;
+    margin: 60px 0;
+}
+.video-area-bg {
+    background-image: url(../img/reain.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+.video-area-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 45%;
+	box-shadow: 0 0 20px #695757;
+}
+.video-play-btn {
+	position: absolute;
+	top: 50%;
+	right: -35px;
+	color: #fff;
+	background: #4ea200;
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	line-height: 67px;
+	border-radius: 50%;
+	font-size: 30px;
+	padding-left: 10px;
+	margin-top: -35px;
+}
+.video-area-info {
+	padding: 30px 0;
+}
+.video-area-info p {
+	color: #b7a4a4;
+}
+.check-icon li {
+	position: relative;
+	padding-left: 40px;
+	margin-top: 20px;
+}
+.check-icon li:before {
+    content:"\f00c";
+    font-family: fontAwesome;
+    position: absolute;
+	top: 0;
+	left: 0;
+    color: #279212;
+}
